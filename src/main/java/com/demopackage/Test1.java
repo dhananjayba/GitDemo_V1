@@ -7,9 +7,12 @@ public class Test1 {
 		if(hungry=true) {
 			System.out.println("Eat immediately");
 			
-		}else {
+		}else if(hungry=false) {
 			System.out.println("Do your work and complete task");
+		}else {
+			System.out.println("Go to bed");
 		}
+			
 	}
 
 }
